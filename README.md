@@ -11,9 +11,11 @@ Software engineer in the UK. I work mostly in Python, Java and JavaScript.
 | [Replay](https://github.com/MNB4556/job-search-replay) | Saves successive versions of a job advert and shows what changed between them. Python, SQLite, and a small browser interface. |
 
 career-ops finds roles and tracks applications. Replay keeps the history of what
-a listing said. Replay imports postings from the career-ops database in
-read-only mode, once, when you ask it to. It does not sync, and it does not copy
-application notes. Both run on your machine and send nothing anywhere.
+a listing said. Replay can import postings from the career-ops database in
+read-only mode when you run the import; it does not sync, and it does not copy
+application notes. Both keep their data in a local file. Replay makes no network
+requests, and career-ops only sends search terms to Adzuna, and only when you
+use that source.
 
 ## Earlier work
 
