@@ -9,7 +9,7 @@ Software engineer in the UK. I work mostly in Python, Java and JavaScript.
 | [carat](https://github.com/MNB4556/carat) | A spectral ray tracer for gemstones, written against raw WebGPU. One HTML file, no dependencies. |
 | [career-ops](https://github.com/MNB4556/career-ops) | A job-search CLI and application tracker in Python. Reads five job boards, filters them against saved criteria, and keeps applications in one SQLite file. |
 | [Replay](https://github.com/MNB4556/job-search-replay) | Saves successive versions of a job advert and shows what changed between them. Python, SQLite, and a small browser interface. |
-| [career-ops API](https://github.com/MNB4556/career-ops-api) | A FastAPI service over fictional job-search data, deployed with Postgres, Docker and a CI/CD pipeline. Live at [career-ops-api.onrender.com](https://career-ops-api.onrender.com). |
+| career-ops API | A FastAPI service over fictional job-search data, deployed with Postgres, Docker and a CI/CD pipeline. Live at [career-ops-api.onrender.com](https://career-ops-api.onrender.com). |
 
 career-ops finds roles and tracks applications. Replay keeps the history of what
 a listing said. Replay can import postings from the career-ops database in
